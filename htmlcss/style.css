@@ -316,3 +316,33 @@ section{
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
+
+.update_container {
+    width: 80%;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  #email {
+    width: 250px;
+  }
+
+  .hungry {
+    height: 300px;
+    padding: 2rem;
+  }
+  .hungry p {
+    font-size: 1.8rem;
+  }
+  footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .foot_info{
+      width: 50%;
+      display: flex;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+      margin-left: 40px;
+  }
